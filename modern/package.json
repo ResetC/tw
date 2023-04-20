@@ -24,7 +24,6 @@
     "react-mui-dropzone": "^4.0.6",
     "react-redux": "^8.0.5",
     "react-router-dom": "^6.10.0",
-    "react-scripts": "^5.0.1",
     "react-virtualized-auto-sizer": "^1.0.14",
     "react-window": "^1.8.8",
     "recharts": "^2.5.0",
@@ -66,6 +65,7 @@
     "eslint-config-airbnb": "^19.0.4",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-react": "^7.32.2",
-    "eslint-plugin-react-hooks": "^4.6.0"
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "react-scripts": "^5.0.1"
   }
 }
