@@ -164,6 +164,7 @@ const LoginPage = () => {
           onChange={(e) => setEmail(e.target.value)}
           onKeyUp={handleSpecialKey}
           helperText={failed && 'Invalid username or password'}
+          size="medium"
         />
         <TextField
           required
@@ -176,13 +177,15 @@ const LoginPage = () => {
           autoFocus={!!email}
           onChange={(e) => setPassword(e.target.value)}
           onKeyUp={handleSpecialKey}
+          size="medium"
         />
         <Button
           onClick={handlePasswordLogin}
           onKeyUp={handleSpecialKey}
           variant="contained"
-          color="secondary"
+          color="primary"
           disabled={!email || !password}
+          sx={{ height: 56 }}
         >
           {t('loginLogin')}
         </Button>
