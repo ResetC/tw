@@ -26,7 +26,7 @@ const PositionValue = ({ position, property, attribute }) => {
   const coordinateFormat = usePreference('coordinateFormat');
   const hours12 = usePreference('twelveHourFormat');
 
-  const formatValue = () => {
+  const formatValue = (value) => {
     switch (key) {
       case 'fixTime':
       case 'deviceTime':
